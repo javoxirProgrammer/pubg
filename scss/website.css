@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.class {
+  text-align: center;
+  background-color: rgba(30, 144, 255, 0.67);
+}
+
+.website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(30, 144, 255, 0.67);
+}
+.website_text {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.website_icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.website_promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.website_promo h1 {
+  margin-left: 30px;
+}
+.website_promo i {
+  font-size: 80px;
+}
+.website_item {
+  width: 465px;
+  height: 545px;
+  background-color: #2ceaea;
+  border-radius: 50px 150px 50px 50px;
+  box-shadow: 0 0 13px 4px aqua;
+  transition: 0.7s;
+}
+.website_item:hover {
+  box-shadow: 0 0 25px 15px aqua;
+  transition: 0.7s;
+}
+.website_item p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.official {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.official_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.official i {
+  font-size: 70px;
+  margin-left: 40px;
+}
+
+.create {
+  height: 67vh;
+  background-image: url("https://ixbt.online/live/images/original/15/09/22/2020/08/29/48a9f04534.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+}
+.create .icons {
+  color: gold;
+  font-size: 35px;
+  padding-right: 10px;
+}
+.create .icons i {
+  margin-left: 20px;
+  color: gold;
+}
+.create_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create_wrapper .logo {
+  width: 100px;
+}
+.create .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create .buttons div {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Calibri Light";
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+.create .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  height: 33vh;
+  background-color: rgba(0, 0, 0, 0.58);
+}
+.section h1 {
+  color: gold;
+  margin-bottom: 5px;
+}
+.section p {
+  color: gold;
+  margin-bottom: 10px;
+}
+.section_anniversary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 35px;
+}
+.section .text {
+  margin-left: 65px;
+}
+.section_item {
+  width: 18%;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.5s;
+}
+.section_item:hover {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.section_item img {
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.royal {
+  height: 100vh;
+  background-image: url("https://www.gamingpromax.com/wp-content/uploads/2022/01/pubg-m10-royal-pass-micro-battle.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.royal a {
+  text-decoration: none;
+  color: black;
+}
+.royal_box {
+  width: 30%;
+  height: 25%;
+  background-color: rgba(128, 128, 128, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  border-radius: 15px;
+}
+.royal_box h1 {
+  margin-bottom: 14px;
+}
+.royal_box p {
+  margin-bottom: 18px;
+  color: white;
+  font-size: 19px;
+}
+.royal_box h3 {
+  padding: 10px 30px;
+  background-color: gold;
+  border-radius: 9px;
+}
+
+.strategy {
+  height: 100vh;
+  background-image: url("https://a-static.besthdwallpaper.com/playerunknown-s-battlegrounds-pubg-mobile-nabor-skinov-dlya-chempionata-mira-oboi-2560x1600-63571_7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.strategy a {
+  text-decoration: none;
+  color: black;
+}
+.strategy_box {
+  width: 30%;
+  height: 25%;
+  background-color: rgba(128, 128, 128, 0.71);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  padding: 0 0 0 100px;
+  border-radius: 15px;
+}
+.strategy_box h1 {
+  margin-bottom: 14px;
+}
+.strategy_box p {
+  margin-bottom: 18px;
+  color: white;
+  font-size: 19px;
+}
+.strategy_box h3 {
+  padding: 10px 30px;
+  background-color: gold;
+  border-radius: 9px;
+}
+
+.security {
+  height: 100vh;
+  background-image: url("https://i.trbna.com/preset/wysiwyg/e/af/e2f7eafee11ebb96da27a825305da.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.security a {
+  text-decoration: none;
+  color: black;
+}
+.security_box {
+  width: 30%;
+  height: 25%;
+  background-color: rgba(128, 128, 128, 0.69);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  border-radius: 15px;
+}
+.security_box h1 {
+  margin-bottom: 14px;
+}
+.security_box p {
+  margin-bottom: 18px;
+  font-size: 19px;
+}
+.security_box h3 {
+  padding: 10px 30px;
+  background-color: gold;
+  border-radius: 9px;
+}
+
+.star {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.game {
+  height: 100vh;
+  background-image: url("https://1.bp.blogspot.com/-gijhkyl7XXY/XH6E1evtVcI/AAAAAAAAAXw/-V6mfizOYq8trkWYp-XIZCpUlLiKEUYRACKgBGAs/w5120-h2880-c/pubg-skydiving-playerunknowns-battlegrounds-uhdpaper.com-8K-83.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.game a {
+  text-decoration: none;
+  color: black;
+}
+.game_box {
+  width: 40%;
+  height: 30%;
+  background-color: rgba(128, 128, 128, 0.69);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  border-radius: 15px;
+}
+.game_box h1 {
+  margin-bottom: 14px;
+}
+.game_box p {
+  margin-bottom: 18px;
+  font-size: 19px;
+}
+.game_box h3 {
+  padding: 10px 30px;
+  background-color: gold;
+  border-radius: 9px;
+}
+
+.end {
+  height: 40vh;
+  background-color: black;
+}
+.end_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.end_wrapper img {
+  margin-bottom: 20px;
+}
+.end_wrapper h3 {
+  margin-bottom: 9px;
+  color: gray;
+}
+.end_promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.end_promo h1 {
+  color: gray;
+}
+.end_promo i {
+  font-size: 30px;
+}
+.end_icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+.end_title {
+  display: flex;
+  justify-content: space-around;
+}
+.end_title a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .website_promo h1 {
+    font-size: 18px;
+  }
+  .website_promo i {
+    font-size: 60px;
+  }
+  .website_text {
+    font-size: 18px;
+  }
+  .website_item {
+    width: 400px;
+    height: 500px;
+  }
+  .website_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .official i {
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+  .create i {
+    font-size: 25px;
+  }
+
+  .section_item {
+    width: 17%;
+    height: 110px;
+  }
+
+  .strategy_box {
+    width: 40%;
+    height: 30%;
+  }
+
+  body {
+    padding-bottom: 10px;
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .website_item {
+    width: 300px;
+    height: 400px;
+  }
+  .website_item h1 {
+    font-size: 15px;
+  }
+
+  .section_item {
+    width: 18%;
+    height: 95px;
+  }
+
+  .security_box {
+    width: 40%;
+    height: 30%;
+  }
+
+  .star img {
+    width: 80%;
+  }
+
+  body {
+    padding-bottom: 10px;
+    background-color: black;
+  }
+
+  .end img {
+    width: 80%;
+  }
+
+  .royal_box {
+    width: 30%;
+    height: 25%;
+  }
+  .royal_box h1 {
+    font-size: 20px;
+  }
+  .royal_box p {
+    font-size: 20px;
+  }
+  .royal_box a {
+    font-size: 20px;
+  }
+
+  .strategy_box {
+    width: 40%;
+    height: 25%;
+  }
+  .strategy_box h1 {
+    font-size: 15px;
+  }
+  .strategy_box p {
+    font-size: 15px;
+  }
+  .strategy_box a {
+    font-size: 15px;
+  }
+
+  .game_box {
+    width: 45%;
+    height: 25%;
+  }
+  .game_box h1 {
+    font-size: 12px;
+  }
+  .game_box p {
+    font-size: 12px;
+  }
+  .game_box a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    margin-bottom: 20px;
+  }
+
+  .website_item {
+    width: 270px;
+    height: 400px;
+  }
+  .website_item h1 {
+    font-size: 15px;
+  }
+
+  .section_item {
+    width: 17%;
+    height: 45px;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
+
+  .royal_box {
+    width: 55%;
+    height: 25%;
+  }
+  .royal_box h1 {
+    font-size: 12px;
+  }
+  .royal_box p {
+    font-size: 12px;
+  }
+  .royal_box a {
+    font-size: 12px;
+  }
+
+  .strategy_box {
+    width: 65%;
+    height: 25%;
+  }
+  .strategy_box h1 {
+    font-size: 12px;
+  }
+  .strategy_box p {
+    font-size: 12px;
+  }
+  .strategy_box a {
+    font-size: 12px;
+  }
+
+  .security_box {
+    width: 55%;
+    height: 25%;
+  }
+  .security_box h1 {
+    font-size: 12px;
+  }
+  .security_box p {
+    font-size: 12px;
+  }
+  .security_box a {
+    font-size: 12px;
+  }
+
+  .star {
+    width: 100%;
+  }
+
+  .game_box {
+    width: 50%;
+    height: 25%;
+  }
+  .game_box h1 {
+    font-size: 15px;
+  }
+  .game_box p {
+    font-size: 15px;
+  }
+  .game_box a {
+    font-size: 15px;
+  }
+
+  .end h3 {
+    font-size: 15px;
+  }
+  .end h3_title {
+    width: 20px;
+    height: 20px;
+  }
+  .end h3_title i {
+    font-size: 10px;
+  }
+  .end_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  .royal_box {
+    width: 55%;
+    height: 20%;
+  }
+
+  .game_box {
+    width: 70%;
+  }
+}
+@media (max-width: 320px) {
+  .website_item {
+    width: 220px;
+    height: 420px;
+  }
+  .website_item h1 {
+    font-size: 12.5px;
+  }
+
+  .create .icons {
+    font-size: 10px;
+  }
+}
+/*99 problems
+z search
+ready for war
+texili golden*/
+
+/*# sourceMappingURL=website.css.map */
